@@ -1,0 +1,35 @@
+{
+  "name": "react-native-module-template",
+  "version": "1.0.0",
+  "description": "description of this project.",
+  "homepage": "https://github.com/shinich39/react-native-module-template.git",
+  "main": "index.js",
+  "scripts": {
+    "unlink": "rimraf .git",
+    "build": "npm pack"
+  },
+  "author": "shinich39 <shinich39@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "javascript",
+    "react-native"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinich39/react-native-module-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shinich39/react-native-module-template/issues"
+  },
+  "devDependencies": {
+    "mkdirp": "^2.1.5",
+    "rimraf": "^4.4.0",
+    "react": "*",
+    "react-native": "*"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "bundleDependencies": []
+}
